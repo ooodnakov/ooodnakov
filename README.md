@@ -14,7 +14,7 @@
   <img alt="location" src="https://img.shields.io/badge/Moscow,%20Russia-111827?style=flat-square&logo=google-maps&logoColor=white" />
   <img alt="focus" src="https://img.shields.io/badge/focus-risk%20×%20AI%20×%20homelab-111827?style=flat-square" />
   <!-- Visitor counter: delete this image if you do not want profile views. -->
-  <img alt="profile views" src="https://komarev.com/ghpvc/?username=ooodnakov&style=flat-square&color=bluegrey" />
+  <img alt="profile views" src="https://komarev.com/ghpvc/?username=ooodnakov&style=flat-square&color=grey" />
 </p>
 
 ---
@@ -59,33 +59,21 @@
 - [`quantum_2048`](https://github.com/ooodnakov/quantum_2048) — small JavaScript game experiment.  
   Небольшой игровой эксперимент на JavaScript.
 
-<!-- Project cards: delete this block if you want a lighter profile. -->
+<!-- Project cards: static local SVGs; regenerate with `python3 scripts/generate-widgets.py`. -->
 <p align="center">
-  <a href="https://github.com/ooodnakov/ooodnakov-config"><img width="410" alt="ooodnakov-config" src="https://github-readme-stats.vercel.app/api/pin/?username=ooodnakov&repo=ooodnakov-config&theme=transparent&hide_border=true&border_radius=8" /></a>
-  <a href="https://github.com/ooodnakov/my_website"><img width="410" alt="my_website" src="https://github-readme-stats.vercel.app/api/pin/?username=ooodnakov&repo=my_website&theme=transparent&hide_border=true&border_radius=8" /></a>
-  <a href="https://github.com/ooodnakov/telegram_meme_autoposter"><img width="410" alt="telegram_meme_autoposter" src="https://github-readme-stats.vercel.app/api/pin/?username=ooodnakov&repo=telegram_meme_autoposter&theme=transparent&hide_border=true&border_radius=8" /></a>
-  <a href="https://github.com/ooodnakov/GMP_TTA"><img width="410" alt="GMP_TTA" src="https://github-readme-stats.vercel.app/api/pin/?username=ooodnakov&repo=GMP_TTA&theme=transparent&hide_border=true&border_radius=8" /></a>
+  <a href="https://github.com/ooodnakov/ooodnakov-config"><img width="410" alt="ooodnakov-config" src="./assets/widgets/repo-ooodnakov-config.svg" /></a>
+  <a href="https://github.com/ooodnakov/my_website"><img width="410" alt="my_website" src="./assets/widgets/repo-my-website.svg" /></a>
+  <a href="https://github.com/ooodnakov/telegram_meme_autoposter"><img width="410" alt="telegram_meme_autoposter" src="./assets/widgets/repo-telegram-meme-autoposter.svg" /></a>
+  <a href="https://github.com/ooodnakov/GMP_TTA"><img width="410" alt="GMP_TTA" src="./assets/widgets/repo-gmp-tta.svg" /></a>
 </p>
 
 ## GitHub pulse / Стата
 
-<!-- Widgets: delete everything between widgets:start and widgets:end to remove all dynamic widgets. -->
+<!-- Widgets: static local SVGs; regenerate with `python3 scripts/generate-widgets.py`. -->
 <!-- widgets:start -->
 <p align="center">
-  <img height="165" alt="GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ooodnakov&show_icons=true&theme=transparent&hide_border=true&rank_icon=github&border_radius=8" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ooodnakov&layout=compact&theme=transparent&hide_border=true&border_radius=8" />
-</p>
-
-<p align="center">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ooodnakov&theme=transparent&hide_border=true&border_radius=8" />
-</p>
-
-<p align="center">
-  <img alt="GitHub trophies" src="https://github-profile-trophy.vercel.app/?username=ooodnakov&theme=flat&no-frame=true&no-bg=true&margin-w=8&row=1&column=6" />
-</p>
-
-<p align="center">
-  <img alt="GitHub activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ooodnakov&theme=github-compact&hide_border=true&radius=8" />
+  <img width="410" alt="GitHub profile stats" src="./assets/widgets/profile-stats.svg" />
+  <img width="410" alt="Top languages" src="./assets/widgets/top-languages.svg" />
 </p>
 <!-- widgets:end -->
 
@@ -112,8 +100,8 @@ To switch, change the first image in `README.md`:
 
 ### Remove widgets / Убрать виджеты
 
-- All dynamic stats: delete the block between `<!-- widgets:start -->` and `<!-- widgets:end -->`.
-- Project cards: delete the block after `<!-- Project cards: ... -->`.
+- All stats widgets: delete the block between `<!-- widgets:start -->` and `<!-- widgets:end -->`.
+- Project cards: delete the block after `<!-- Project cards: ... -->` or regenerate with `python3 scripts/generate-widgets.py`.
 - Visitor counter: delete the `komarev.com/ghpvc` image near the top.
 - Banner: delete the first `<p align="center"> ... </p>` block or replace `assets/banner.svg` with another file.
 
