@@ -1,0 +1,32 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ooodnakov network banner</title>
+  <desc id="desc">Clean network-map profile banner.</desc>
+  <defs>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(604 181) rotate(90) scale(300 760)">
+      <stop stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="a" x1="210" y1="260" x2="1000" y2="90" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#86EFAC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="32" fill="url(#r)"/>
+  <g stroke="#64748B" stroke-opacity="0.22">
+    <path d="M196 250L355 150L512 208L674 104L835 185L1004 92"/>
+    <path d="M355 150L416 76M512 208L610 278M674 104L754 58M835 185L942 261"/>
+  </g>
+  <g fill="#0F172A" stroke="url(#a)" stroke-width="3">
+    <circle cx="196" cy="250" r="11"/><circle cx="355" cy="150" r="11"/><circle cx="512" cy="208" r="11"/><circle cx="674" cy="104" r="11"/><circle cx="835" cy="185" r="11"/><circle cx="1004" cy="92" r="11"/>
+    <circle cx="416" cy="76" r="7"/><circle cx="610" cy="278" r="7"/><circle cx="754" cy="58" r="7"/><circle cx="942" cy="261" r="7"/>
+  </g>
+  <g transform="translate(92 76)">
+    <text x="0" y="0" fill="#F8FAFC" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="56" font-weight="750" letter-spacing="-2">ooodnakov</text>
+    <text x="2" y="46" fill="#CBD5E1" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="18">risk analysis / AI / homelab</text>
+  </g>
+  <g transform="translate(92 263)">
+    <rect width="168" height="44" rx="22" fill="#0F172A" stroke="#334155"/>
+    <text x="24" y="28" fill="#CBD5E1" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="15">dnakov.ooo</text>
+  </g>
+</svg>

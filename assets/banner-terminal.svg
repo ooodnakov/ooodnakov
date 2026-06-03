@@ -1,0 +1,32 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ooodnakov terminal banner</title>
+  <desc id="desc">Minimal terminal-inspired profile banner.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="128" y1="260" x2="1070" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.48" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="32" fill="url(#bg)"/>
+  <path d="M128 260C255 168 333 242 451 157C565 76 608 248 724 176C825 113 909 161 1070 100" stroke="url(#line)" stroke-opacity="0.28" stroke-width="24" filter="url(#blur)"/>
+  <path d="M128 260C255 168 333 242 451 157C565 76 608 248 724 176C825 113 909 161 1070 100" stroke="url(#line)" stroke-width="4" stroke-linecap="round"/>
+  <g transform="translate(122 82)">
+    <rect width="648" height="196" rx="20" fill="#0B1020" stroke="#334155"/>
+    <rect width="648" height="44" rx="20" fill="#111827"/>
+    <circle cx="28" cy="22" r="6" fill="#EF4444"/>
+    <circle cx="50" cy="22" r="6" fill="#F59E0B"/>
+    <circle cx="72" cy="22" r="6" fill="#22C55E"/>
+    <text x="28" y="86" fill="#93C5FD" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="21">$ whoami</text>
+    <text x="28" y="123" fill="#F8FAFC" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="29" font-weight="700">ooodnakov</text>
+    <text x="28" y="160" fill="#CBD5E1" font-family="JetBrains Mono, SFMono-Regular, Consolas, monospace" font-size="19">risk analyst · AI tinkerer · homelab enjoyer</text>
+  </g>
+  <text x="820" y="270" fill="#94A3B8" font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif" font-size="19">dnakov.ooo</text>
+</svg>
