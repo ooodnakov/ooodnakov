@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://dnakov.ooo"><img alt="website" src="https://img.shields.io/badge/dnakov.ooo-111827?style=flat-square&logo=firefox-browser&logoColor=white" /></a>
+  <a href="https://dnakov.ooo"><img alt="website" src="https://img.shields.io/badge/dnakov.ooo-111827?style=flat-square&logo=zenbrowser&logoColor=white" /></a>
   <img alt="location" src="https://img.shields.io/badge/Moscow,%20Russia-111827?style=flat-square&logo=google-maps&logoColor=white" />
   <img alt="focus" src="https://img.shields.io/badge/focus-risk%20×%20AI%20×%20homelab-111827?style=flat-square" />
   <!-- Visitor counter: delete this image if you do not want profile views. -->
