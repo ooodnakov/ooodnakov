@@ -17,7 +17,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "widgets"
 OWNER = "ooodnakov"
-SELECTED_REPOS = ["ooodnakov-config", "my_website", "telegram_meme_autoposter", "GMP_TTA"]
+SELECTED_REPOS = ["ooodnakov-config", "my_website", "telegram_meme_autoposter"]
 
 LANG_COLORS = {
     "Python": "#3572A5",
@@ -38,7 +38,6 @@ REPO_DESCRIPTIONS = {
     "ooodnakov-config": "Configs, scripts and personal automation glue.",
     "my_website": "Personal website: dnakov.ooo.",
     "telegram_meme_autoposter": "Telegram automation experiments.",
-    "GMP_TTA": "LiDAR semantic segmentation research code.",
 }
 
 

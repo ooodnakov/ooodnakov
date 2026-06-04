@@ -44,7 +44,6 @@
 - [`ooodnakov-config`](https://github.com/ooodnakov/ooodnakov-config) — configs, scripts and personal automation glue.  
 - [`my_website`](https://github.com/ooodnakov/my_website) — personal website: [dnakov.ooo](https://dnakov.ooo).
 - [`telegram_meme_autoposter`](https://github.com/ooodnakov/telegram_meme_autoposter) — Telegram meme channel automation.
-- [`GMP_TTA`](https://github.com/ooodnakov/GMP_TTA) — LiDAR semantic segmentation research code.
 - [`alioss`](https://github.com/ooodnakov/alioss) / [`alioss-site`](https://github.com/ooodnakov/alioss-site) — Android game + website.
 
 <!-- Project cards: static local SVGs; regenerate with `python3 scripts/generate-widgets.py`. -->
@@ -52,7 +51,6 @@
   <a href="https://github.com/ooodnakov/ooodnakov-config"><img width="410" alt="ooodnakov-config" src="./assets/widgets/repo-ooodnakov-config.svg" /></a>
   <a href="https://github.com/ooodnakov/my_website"><img width="410" alt="my_website" src="./assets/widgets/repo-my-website.svg" /></a>
   <a href="https://github.com/ooodnakov/telegram_meme_autoposter"><img width="410" alt="telegram_meme_autoposter" src="./assets/widgets/repo-telegram-meme-autoposter.svg" /></a>
-  <a href="https://github.com/ooodnakov/GMP_TTA"><img width="410" alt="GMP_TTA" src="./assets/widgets/repo-gmp-tta.svg" /></a>
 </p>
 
 ## GitHub pulse
