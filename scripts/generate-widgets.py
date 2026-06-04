@@ -72,7 +72,6 @@ def repo_card(repo: dict) -> str:
     lang_color = lang.get("color") or LANG_COLORS.get(lang_name, "#8b949e")
     stars = repo.get("stargazerCount", 0)
     forks = repo.get("forkCount", 0)
-    updated = (repo.get("updatedAt") or "")[:10]
     body = f"""
   <text class=\"title\" x=\"22\" y=\"32\">{html.escape(name)}</text>
   <text class=\"text\" x=\"22\" y=\"58\">{desc}</text>
@@ -80,7 +79,6 @@ def repo_card(repo: dict) -> str:
   <text class=\"muted\" x=\"40\" y=\"95\">{lang_name}</text>
   <text class=\"muted\" x=\"155\" y=\"95\">★ {stars}</text>
   <text class=\"muted\" x=\"215\" y=\"95\">⑂ {forks}</text>
-  <text class=\"muted\" x=\"290\" y=\"95\">updated {updated}</text>
 """
     return svg_card(410, 120, body)
 
@@ -146,7 +144,7 @@ def main() -> None:
         OWNER,
         "--visibility=public",
         "--limit=100",
-        "--json=name,description,stargazerCount,forkCount,primaryLanguage,isFork,isArchived,updatedAt,url",
+        "--json=name,description,stargazerCount,forkCount,primaryLanguage,isFork,isArchived,url",
     ])
     repo_by_name = {repo["name"]: repo for repo in repos}
 

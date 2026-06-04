@@ -39,7 +39,7 @@
   <img alt="Telegram" src="https://img.shields.io/badge/Telegram%20bots-111827?style=flat-square&logo=telegram&logoColor=white" />
 </p>
 
-## Selected repositories / Избранные репозитории
+## Selected repositories
 
 - [`ooodnakov-config`](https://github.com/ooodnakov/ooodnakov-config) — configs, scripts and personal automation glue.  
 - [`my_website`](https://github.com/ooodnakov/my_website) — personal website: [dnakov.ooo](https://dnakov.ooo).
