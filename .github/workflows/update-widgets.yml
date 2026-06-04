@@ -1,0 +1,47 @@
+name: Update profile widgets
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 06:17 UTC / 09:17 Moscow.
+    - cron: "17 6 * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/generate-widgets.py"
+      - ".github/workflows/update-widgets.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-widgets
+  cancel-in-progress: false
+
+jobs:
+  update-widgets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Generate static widgets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/generate-widgets.py
+
+      - name: Commit updated widgets
+        run: |
+          set -euo pipefail
+
+          if git diff --quiet -- assets/widgets; then
+            echo "No widget changes."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/widgets
+          git commit -m "chore: refresh profile widgets"
+          git push
