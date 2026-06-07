@@ -24,7 +24,7 @@
   <circle cx="27" cy="116" r="5" fill="#3572A5" />
   <text class="text" x="40" y="120">Python 17.1%</text>
   <circle cx="27" cy="138" r="5" fill="#3178c6" />
-  <text class="text" x="40" y="142">TypeScript 15.6%</text>
+  <text class="text" x="40" y="142">TypeScript 15.5%</text>
   <circle cx="220" cy="94" r="5" fill="#A97BFF" />
   <text class="text" x="233" y="98">Kotlin 9.7%</text>
   <circle cx="220" cy="116" r="5" fill="#89e051" />
