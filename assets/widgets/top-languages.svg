@@ -28,8 +28,8 @@
   <circle cx="220" cy="94" r="5" fill="#A97BFF" />
   <text class="text" x="233" y="98">Kotlin 9.0%</text>
   <circle cx="220" cy="116" r="5" fill="#89e051" />
-  <text class="text" x="233" y="120">Shell 4.5%</text>
+  <text class="text" x="233" y="120">Shell 4.6%</text>
   <circle cx="220" cy="138" r="5" fill="#8b949e" />
-  <text class="text" x="233" y="142">PowerShell 4.0%</text>
+  <text class="text" x="233" y="142">PowerShell 4.1%</text>
 
 </svg>
