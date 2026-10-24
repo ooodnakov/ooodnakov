@@ -13,23 +13,23 @@
 
   <text class="title" x="22" y="34">Top languages</text>
   <text class="muted" x="22" y="52">Aggregated from public non-fork repositories</text>
-  <rect x="22" y="60" width="146" height="10" rx="5" fill="#DA5B0B" />
-  <rect x="168" y="60" width="88" height="10" rx="5" fill="#3572A5" />
-  <rect x="256" y="60" width="66" height="10" rx="5" fill="#3178c6" />
-  <rect x="322" y="60" width="33" height="10" rx="5" fill="#A97BFF" />
-  <rect x="355" y="60" width="17" height="10" rx="5" fill="#89e051" />
-  <rect x="372" y="60" width="15" height="10" rx="5" fill="#8b949e" />
+  <rect x="22" y="60" width="145" height="10" rx="5" fill="#DA5B0B" />
+  <rect x="167" y="60" width="92" height="10" rx="5" fill="#3572A5" />
+  <rect x="259" y="60" width="65" height="10" rx="5" fill="#3178c6" />
+  <rect x="324" y="60" width="33" height="10" rx="5" fill="#A97BFF" />
+  <rect x="357" y="60" width="17" height="10" rx="5" fill="#89e051" />
+  <rect x="374" y="60" width="15" height="10" rx="5" fill="#8b949e" />
   <circle cx="27" cy="94" r="5" fill="#DA5B0B" />
-  <text class="text" x="40" y="98">Jupyter Notebook 37.4%</text>
+  <text class="text" x="40" y="98">Jupyter Notebook 37.0%</text>
   <circle cx="27" cy="116" r="5" fill="#3572A5" />
-  <text class="text" x="40" y="120">Python 22.5%</text>
+  <text class="text" x="40" y="120">Python 23.4%</text>
   <circle cx="27" cy="138" r="5" fill="#3178c6" />
-  <text class="text" x="40" y="142">TypeScript 16.8%</text>
+  <text class="text" x="40" y="142">TypeScript 16.6%</text>
   <circle cx="220" cy="94" r="5" fill="#A97BFF" />
-  <text class="text" x="233" y="98">Kotlin 8.5%</text>
+  <text class="text" x="233" y="98">Kotlin 8.4%</text>
   <circle cx="220" cy="116" r="5" fill="#89e051" />
-  <text class="text" x="233" y="120">Shell 4.4%</text>
+  <text class="text" x="233" y="120">Shell 4.3%</text>
   <circle cx="220" cy="138" r="5" fill="#8b949e" />
-  <text class="text" x="233" y="142">PowerShell 4.0%</text>
+  <text class="text" x="233" y="142">PowerShell 3.9%</text>
 
 </svg>
