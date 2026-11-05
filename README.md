@@ -41,6 +41,7 @@
 
 ## Selected repositories
 
+- [`voice-drop`](https://github.com/ooodnakov/voice-drop) — portable Telegram sender: drop a file, it lands as a voice note, round video or document.
 - [`ooodnakov-config`](https://github.com/ooodnakov/ooodnakov-config) — configs, scripts and personal automation glue.  
 - [`my_website`](https://github.com/ooodnakov/my_website) — personal website: [dnakov.ooo](https://dnakov.ooo).
 - [`telegram_meme_autoposter`](https://github.com/ooodnakov/telegram_meme_autoposter) — Telegram meme channel automation.
@@ -48,6 +49,7 @@
 
 <!-- Project cards: static local SVGs; regenerate with `python3 scripts/generate-widgets.py`. -->
 <p align="center">
+  <a href="https://github.com/ooodnakov/voice-drop"><img width="410" alt="voice-drop" src="./assets/widgets/repo-voice-drop.svg" /></a>
   <a href="https://github.com/ooodnakov/ooodnakov-config"><img width="410" alt="ooodnakov-config" src="./assets/widgets/repo-ooodnakov-config.svg" /></a>
   <a href="https://github.com/ooodnakov/my_website"><img width="410" alt="my_website" src="./assets/widgets/repo-my-website.svg" /></a>
   <a href="https://github.com/ooodnakov/telegram_meme_autoposter"><img width="410" alt="telegram_meme_autoposter" src="./assets/widgets/repo-telegram-meme-autoposter.svg" /></a>

@@ -17,7 +17,7 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "assets" / "widgets"
 OWNER = "ooodnakov"
-SELECTED_REPOS = ["ooodnakov-config", "my_website", "telegram_meme_autoposter"]
+SELECTED_REPOS = ["voice-drop", "ooodnakov-config", "my_website", "telegram_meme_autoposter"]
 
 LANG_COLORS = {
     "Python": "#3572A5",
@@ -32,9 +32,11 @@ LANG_COLORS = {
     "Ruby": "#701516",
     "Java": "#b07219",
     "C++": "#f34b7d",
+    "Rust": "#dea584",
 }
 
 REPO_DESCRIPTIONS = {
+    "voice-drop": "Drop a file → Telegram voice, round video or document.",
     "ooodnakov-config": "Configs, scripts and personal automation glue.",
     "my_website": "Personal website: dnakov.ooo.",
     "telegram_meme_autoposter": "Telegram automation experiments.",
@@ -135,6 +137,26 @@ def top_languages_card(lang_totals: dict[str, int]) -> str:
     return svg_card(410, 150, body)
 
 
+def repo_detail(name: str) -> dict | None:
+    """Fetch one repo directly. Public listings omit private repos, so selected
+    private projects still get a card when the local token can see them."""
+    try:
+        data = gh_json(["api", f"repos/{OWNER}/{name}"])
+    except subprocess.CalledProcessError:
+        return None
+    language = data.get("language")
+    return {
+        "name": data["name"],
+        "description": data.get("description"),
+        "stargazerCount": data.get("stargazers_count", 0),
+        "forkCount": data.get("forks_count", 0),
+        "primaryLanguage": {"name": language, "color": LANG_COLORS.get(language)} if language else None,
+        "isFork": data.get("fork", False),
+        "isArchived": data.get("archived", False),
+        "url": data.get("html_url"),
+    }
+
+
 def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     user = gh_json(["api", f"users/{OWNER}"])
@@ -160,7 +182,7 @@ def main() -> None:
     (OUT / "top-languages.svg").write_text(top_languages_card(lang_totals), encoding="utf-8")
 
     for name in SELECTED_REPOS:
-        repo = repo_by_name.get(name)
+        repo = repo_by_name.get(name) or repo_detail(name)
         if not repo:
             continue
         safe = name.lower().replace("_", "-")
